@@ -21,6 +21,8 @@ jobs:
 
       - name: Node 🔧
         uses: actions/setup-node@v1
+        with:
+          node-version: '12'
 
       - name: Install 🔧
         uses: borales/actions-yarn@v2.0.0
