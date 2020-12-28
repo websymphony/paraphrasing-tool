@@ -17,10 +17,6 @@ module.exports = (phase) => {
   return {
     basePath: '/paraphrasing-tool',
     assetPrefix: '/paraphrasing-tool/',
-    i18n: {
-      locales: ['en-US'],
-      defaultLocale: 'en-US'
-    },
     env,
   };
 };
