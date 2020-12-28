@@ -3,10 +3,6 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
