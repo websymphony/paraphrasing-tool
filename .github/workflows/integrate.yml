@@ -16,6 +16,7 @@ jobs:
       - run: yarn run export
         env:
           NEXT_PUBLIC_BASE_PATH: /paraphrasing-tool
+          NEXT_PUBLIC_BASE_API_URL: https://paraphraser.prod.hipcv.com
       - run: touch ./out/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@3.5.9
         env:
