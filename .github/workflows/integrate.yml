@@ -21,5 +21,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
