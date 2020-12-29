@@ -77,10 +77,10 @@ export default function Paraphraser(props) {
                   <a href="https://hipcv.com?utm_source=paraphrasing-tool" className="block p-2">
                     <span className="md:hidden">
                       Use our app hipCV to create free professional resumes in minutes.
-                      </span>
+                    </span>
                     <span className="hidden md:inline">
                       Looking for a job or need a professional resume? Use our app hipCV to create free resumes and cover letters!
-                      </span>
+                    </span>
                   </a>
                 </p>
               </div>
@@ -129,7 +129,10 @@ export default function Paraphraser(props) {
           <div className="p-4 sm:px-0">
             <div className="grid grid-cols-2 gap-x-1">
               <label htmlFor="inputText">
-                <span className="block pb-2 text-center text-gray-600">
+                <span className="block pb-2 text-center text-gray-600 md:hidden">
+                  Text to paraphrase
+                </span>
+                <span className="hidden md:block pb-2 text-center text-gray-600">
                   Enter the text you want to paraphrase
                 </span>
                 <textarea name="inputText" className="border-2 border-gray-200 h-96 disabled:opacity-60 block w-full sm:text-sm rounded-lg p-4 md:text-lg focus:outline-none focus:ring focus:border-blue-600 resize-none" placeholder="Enter the text you want to paraphrase. You can select any of the modes above for different levels of paraphrasing. After writing or pasting your text, use the Paraphrase button below." value={inputText} onChange={handleInputTextChange} disabled={paraphraseLoading} ref={inputTextRef}></textarea>
