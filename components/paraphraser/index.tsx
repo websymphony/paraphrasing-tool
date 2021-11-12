@@ -284,6 +284,7 @@ export default function Paraphraser(props) {
                         <p className="pb-2">You can find lots of different paraphrasing tools online. Almost all of them are either very poor in the level of quality and accuracy of the sentences they generate. Either ask for money or need signup before continuing. They are ad-ridden most of the time and do not have a good usability experience while using.</p>
                         <p className="pb-2">Most of these online tools rely on simple text synonym replacement, hence their low quality. They don't understand the meaning behind the sentences entirely.</p>
                         <p className="pb-2">On the other hand, our software uses advanced artificial intelligence models that excel at paraphrasing. Our AI models have spent countless hours analyzing English phrases. These models understand the semantics behind the sentences, due to which they can perform a much better job of rewriting.</p>
+                        <p className="pb-2">You can also learn more about another paraphrasing tool called <Link href="quillbot">Quillbot</Link>.</p>
                       </div>
                     </div>
                   </div>
